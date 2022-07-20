@@ -1,0 +1,32 @@
+/* common style */
+.all-group a{
+    background-color: tomato;
+}
+.all-group a{
+    transition: background-color 1s;
+ }
+.all-group a:hover{
+    background-color:#c5a7a7;
+}
+.upcoming a{
+    transition: background-color 1s;
+ }
+.upcoming a:hover{
+      background-color: tomato;
+}
+.blog a{
+    transition: background-color 1s;
+ }
+.blog a:hover{
+      background-color: tomato;
+}
+.blog a{
+   background-color: aliceblue;
+}
+.news-images{
+    height: 50%;
+}
+.news-images img{
+    height: 100%;
+    padding: 10px;
+}

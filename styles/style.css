@@ -11,6 +11,26 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+.all-group a{
+   transition: background-color 1s;
+}
+.all-group a:hover{
+    background-color:tomato;
+}
+
+
+.upcoming a:hover{
+      background-color: tomato;
+}
+.upcoming a{
+   transition: background-color 1s;
+}
+.blog a:hover{
+      background-color: #b89999;
+}
+.blog a{
+   transition: background-color 1s;
+}
 
 /* --------------------------
       Header Section Style 
@@ -164,6 +184,12 @@ body{
     /* view-all section */
     .view-all a{
       display: none;
+      border-radius: 4px;
+      
+    }
+    .view-all a:hover{
+      background-color: #fff;
+      color: black;
     }
     /* Footer Section Styles */
    #footer-section{
@@ -266,6 +292,7 @@ body{
       background-color: tomato;
       padding: 7px 20px;
       color: white;
+      transition: background-color 1s, color 1s;
      }
      /* Footer Section */
      

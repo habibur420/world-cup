@@ -1,3 +1,25 @@
+/* common styles */
+.all-group a{
+    transition: background-color 1s;
+ }
+.all-group a:hover{
+    background-color:tomato;
+}
+.upcoming a{
+    transition: background-color 1s;
+ }
+.upcoming a:hover{
+      background-color: #c59c9c;
+}
+.blog a{
+    transition: background-color 1s;
+ }
+.blog a:hover{
+      background-color: tomato;
+}
+
+
+
 /* blogs-container */
 
 .news-images{
