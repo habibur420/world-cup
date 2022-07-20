@@ -24,18 +24,34 @@
 .news-images{
       display: flex;
       justify-content: center;
+      align-items: center;
       padding: 10px;
 }
 .news-images span{
-      margin-top: 15px;
+      margin: 0 7px;
       font-size: 25px;
 }
 .news-images img{
     width: 40%;
+}
+.news-info{
+    text-align: center;
 }
 .upcoming a{
     background-color: tomato;
 }
 .blog a{
     background-color: aliceblue;
+}
+@media only screen and (min-width:688px) and (max-width:992px){
+    .news-info h4{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width:688px) {
+
+        .news-info h4{
+             font-size: 25px;
+        }
 }

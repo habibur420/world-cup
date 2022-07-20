@@ -26,6 +26,9 @@
 .news-container{
     height: 100%;
 }
+.news-info{
+    text-align: center;
+}
 .news-images{
     height: auto;
 }
