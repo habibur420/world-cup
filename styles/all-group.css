@@ -23,8 +23,8 @@
 .blog a{
    background-color: aliceblue;
 }
-.banner-container{
-    height: auto;
+.news-container{
+    height: 100%;
 }
 .news-images{
     height: auto;
@@ -32,4 +32,7 @@
 .news-images img{
     height: 100%;
     padding: 10px;
+}
+b{
+    cursor: pointer;
 }
