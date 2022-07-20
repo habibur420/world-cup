@@ -231,6 +231,7 @@ body{
      /* blogs-w25 */
      .blogs-container{
         flex-direction: column;
+        height: 100%;
      }
      .blogs-w25{
       width: 100%;
@@ -264,13 +265,10 @@ body{
       color: white;
      }
      /* Footer Section */
-     .icon-1 ul{
-        grid-template-columns: repeat(4,1fr);
+     
+     #footer-section{
         width: 100%;
-        align-items: center;
-        
-     }
-    
+    }
      
 
  }
@@ -343,8 +341,6 @@ body{
    #footer-section{
       
       height: 450px;
-      
-      
       
    }
     }
