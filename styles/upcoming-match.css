@@ -21,7 +21,6 @@
 
 
 /* blogs-container */
-
 .news-images{
       display: flex;
       justify-content: center;
@@ -30,6 +29,9 @@
 .news-images span{
       margin-top: 15px;
       font-size: 25px;
+}
+.news-images img{
+    width: 40%;
 }
 .upcoming a{
     background-color: tomato;
