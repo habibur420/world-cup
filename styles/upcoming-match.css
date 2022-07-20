@@ -1,0 +1,17 @@
+/* blogs-container */
+
+.news-images{
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+}
+.news-images span{
+      margin-top: 15px;
+      font-size: 25px;
+}
+.upcoming a{
+    background-color: tomato;
+}
+.blog a{
+    background-color: aliceblue;
+}

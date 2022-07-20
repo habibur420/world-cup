@@ -206,6 +206,9 @@ body{
       width: 30%;
       margin: 0 auto;
    }
+   .fa-brands{
+      font-size: 20px;
+   }
 
     /*--------------------------
         Header Media query 
@@ -269,6 +272,10 @@ body{
      #footer-section{
         width: 100%;
     }
+    .icon-2{
+       width: 60%;
+    }
+    
      
 
  }
@@ -342,6 +349,9 @@ body{
       
       height: 450px;
       
+   }
+   .icon-2{
+      width: 60%;
    }
     }
  
