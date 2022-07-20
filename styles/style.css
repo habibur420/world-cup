@@ -15,10 +15,6 @@ body{
 /* --------------------------
       Header Section Style 
    --------------------------*/
-   #header{
-      /* width: 100%;
-      height: 100%; */
-   }
    .banner-container{
      width:80%;
      height: 500px;
@@ -78,9 +74,10 @@ body{
     /* Blogs Section Style */
     .blogs-container{
         width: 80%;
-        height: 130vh;
+        height: 100%;
         margin: 0 auto;
         display: flex;
+        margin-bottom: 50px;
     }
     /* Blogs-W25 */
     .blogs-w25{
@@ -125,6 +122,7 @@ body{
       display: grid;
       grid-template-columns: repeat(3,1fr);
       grid-gap: 25px;
+      
     }
     .news-container{
         box-shadow: 5px 5px 20px rgba(128, 128, 128, 0.534);
@@ -153,11 +151,13 @@ body{
     .normal-text{
        font-size: 15px;
        margin-top: 10px;
+       padding-bottom: 10px;
     }
     .news-icon{
         display: grid;
         grid-template-columns: repeat(2,1fr);
         grid-column-gap: 30px;
+        padding-bottom: 10px;
         
         
     }
@@ -165,6 +165,47 @@ body{
     .view-all a{
       display: none;
     }
+    /* Footer Section Styles */
+   #footer-section{
+      
+      height: 350px;
+     background-color: #161616;
+      text-align: center;
+      padding-top: 100px;
+      
+      
+   }
+   .navigation{
+      width: 80%;
+      margin: 0 auto;
+      text-align: center;
+   }
+   .footer-title{
+      padding-bottom: 30px;
+      color: #fff;
+      border-bottom: 1px solid gray;
+   }
+   .nav ul{
+      width: 80%;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(6,1fr);
+      list-style: none;
+      margin-top: 20px;
+   }
+   .nav ul li a{
+      color: white;
+      text-decoration: none;
+      text-align: center;
+      font-size: 12px;
+   }
+   .nav ul li a:hover{
+      color: #ff0000;
+   }
+   .icon-2{
+      width: 30%;
+      margin: 0 auto;
+   }
 
     /*--------------------------
         Header Media query 
@@ -222,9 +263,17 @@ body{
       padding: 7px 20px;
       color: white;
      }
+     /* Footer Section */
+     .icon-1 ul{
+        grid-template-columns: repeat(4,1fr);
+        width: 100%;
+        align-items: center;
+        
+     }
      
 
  }
+
       /* Mobile responsive */
       @media only screen and (max-width:688px) {
 
@@ -276,13 +325,26 @@ body{
        background-color: #fff;
       
       }
-      
-
-
+   
       /* .blogs-w75 */
      .blogs-w75{
       width: 100%;
       grid-template-columns: repeat(1,1fr);
+   }
+
+   /* Footer Section */
+   .icon-1 ul{
+      grid-template-columns: repeat(1,1fr);
+      width: 100%;
+      align-items: center;
+      
+   }
+   #footer-section{
+      
+      height: 450px;
+      
+      
+      
    }
     }
  
