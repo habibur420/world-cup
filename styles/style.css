@@ -257,7 +257,7 @@ body{
          
      }
      .view-all a{
-      display:inline-block;
+      display:initial;
       text-decoration: none;
       background-color: tomato;
       padding: 7px 20px;
@@ -270,6 +270,7 @@ body{
         align-items: center;
         
      }
+    
      
 
  }
